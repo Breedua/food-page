@@ -1,0 +1,455 @@
+/* styling of a simple food page */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* general body specifications */
+body {
+    background: black;
+    background-blend-mode: darken;
+    background-size: cover;
+    font-family: 'open sans' sans-serif ;
+    background-repeat: no-repeat;
+    overflow: auto;  
+}
+
+/* making the header fixed and immovable */
+.head {
+    display: flex;
+    position: sticky;
+    top: 0;
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.924);
+    margin: 10px;
+}
+
+/* putting all contents of the header in a straight line */
+.header {
+    width: 100%;
+    display: flex;
+}
+
+/* taking the logo name to the extreme left */
+.header1 {
+    display: flex;
+    margin: auto;
+}
+ 
+/* taking the list contents of the header to the right side */
+.header2 {
+    display: flex;
+ margin: auto;
+}
+
+/* spacing between each list item and removing the dots */
+.header li {
+    list-style: none;
+    padding: 10px 15px;
+}
+
+/* changing the anchor tag text colour */
+.header2 li a {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.852);
+    font-weight: 200;
+}
+
+/* changing the logo name text colour and moving the lists more to the left */
+.header1 li a {
+    text-decoration: none;
+    color: rgba(255, 68, 0, 0.942);
+    font-weight: 900;
+    font-size: 20px;
+    padding-right: 360px;
+}
+
+/* changing the hover colour of the header to fit the theme */
+.header li a:hover {
+    color: rgba(255, 68, 0, 0.942);
+}
+
+/* styling the two hero section divs side by side */
+.hero {
+    width: 70%;
+    overflow: hidden;
+    margin: 10px;
+    display: flex;
+    flex: 1 1 100%;  
+    align-items: cover;
+    justify-content: space-between;
+    border: 10px;
+    margin-left: 140px; 
+    margin: 0 auto; 
+    margin-top: 30px;
+    padding: 25px;
+}
+
+/* styling the text div */
+.hero1 h1 {
+    font-weight: 900;
+    color: rgb(255, 98, 0);
+    font-size: 5vmax;
+    line-height: 1;
+    margin-top: 90px;
+    margin-bottom: 20px;
+}
+
+.hero1 p {
+    font-size: 30px;
+    font-weight: 900;
+    color: white;
+    margin-top: 40px;
+}
+
+/* styling all buttons on this page */
+button {
+    cursor: pointer;
+    background-color: rgb(255, 98, 0);
+    font-size: 15px;
+    color: aliceblue;
+    padding: 10px;
+    margin-top: 30px;
+ }
+
+ /* styling the next section exactly like the hero section  */
+ .a{
+    width: 70%;
+    overflow: hidden;
+    margin: 10px;
+    display: flex;
+    flex: 1 1 100%;  
+    align-items: cover;
+    justify-content: space-between;
+    margin-left: 140px; 
+    margin: 0 auto;
+    margin-top: 30px;
+    padding: 25px; 
+ }
+
+ .a1 {
+   margin: 50px;
+   padding: 10px;
+ }
+
+ .a2{
+    margin-top: 130px;
+ }
+
+ .a2 a{
+    text-decoration: none;
+    color: rgba(255, 68, 0, 0.942);
+    font-weight: 900;
+ }
+
+ .a2 h2{
+    font-size: 30px;
+    font-weight: 900;
+    color: white;
+ }
+
+ .a2 p {
+    font-size: 15px;
+    margin-top: 20px;
+    color: white;
+ }
+
+ /* styling thr b section by first styling the text div then stlying the picture divs */
+
+ /* styling the text div */
+ .b1 {
+    margin: 15px;
+    padding: 10px;
+ }
+
+ .b1 a{
+    text-decoration: none;
+    color: rgba(255, 68, 0, 0.942);
+    font-weight: 900;
+    display: flex;
+    justify-content: center;
+    
+ }
+
+ .b1 h2 {
+    font-size: 30px;
+    font-weight: 900;
+    color: white;
+    text-align: center;
+ }
+
+ /* arranging the next 3 divs side by side */
+ .b2 {
+    width: 75%;
+    overflow: hidden;
+    margin: 10px;
+    display: flex;
+    flex: 1 1 100%;  
+    align-items: cover;
+    justify-content: space-between;
+    margin-left: 140px; 
+    margin: 0 auto;
+    padding: 30px;  
+ }
+
+ /* styling the background and colour changes for all the divs */
+ .b2a {
+    background-color: rgba(245, 245, 245, 0.915);
+    text-align: center;
+    margin: 0 auto;
+ }
+
+ h3{
+    font-weight: 900;
+    font-size: 20px;
+ }
+
+ h5 {
+    font-size: x-small;
+}
+
+ .b2b {
+    background-color: rgba(245, 245, 245, 0.915);
+    text-align: center;
+    margin: 0 auto;
+ }
+
+ .b2c {
+    background-color: rgba(245, 245, 245, 0.915); 
+    text-align: center;
+    margin: 0 auto;
+ }
+
+ .b2a p {
+    color: rgba(255, 68, 0, 0.942);
+ }
+
+ .b2b p {
+    color: rgba(255, 68, 0, 0.942);
+ }
+
+ .b2c p {
+    color: rgba(255, 68, 0, 0.942);
+ }
+
+ /* styling this section almost exactly like the section before */
+ /* styling the text div */
+ .c1 {
+    margin: 20px;
+    margin-top: 80px;
+ }
+
+ .c1 a{
+    text-decoration: none;
+    color: rgba(255, 68, 0, 0.942);
+    font-weight: 900;
+    display: flex;
+    justify-content: center;
+    
+ }
+
+ .c1 h2 {
+    font-size: 30px;
+    font-weight: 900;
+    color: white;
+    text-align: center;
+ }
+
+ /* styling the next 3 divs side by side */
+ .c2 {
+    width: 70%;
+    overflow: hidden;
+    margin: 10px;
+    display: flex;
+    flex: 1 1 100%;  
+    align-items: cover;
+    justify-content: space-between;
+    margin-left: 140px; 
+    margin: 0 auto;
+    padding: 30px;  
+ }
+
+ /* best way to center any h tag or p tag */
+ .c2a {
+    text-align: center;
+ }
+
+ .c2a a {
+        display: flex;
+        justify-content: center;
+        color: rgba(255, 68, 0, 0.942);
+        font-weight: 700;
+        font-size: medium;
+        margin: 0 auto;
+ }
+
+ .c2a p {
+    color: rgba(240, 255, 255, 0.677);
+    font-size: 13px;
+ }
+
+ .c2b {
+    text-align: center;
+ }
+
+ /* best way to center any anchor tag */
+ .c2b a {
+        display: flex;
+        justify-content: center;
+        color: rgba(255, 68, 0, 0.942);
+        font-weight: 700;
+        font-size: medium;
+ }
+
+ .c2b p {
+    color: rgba(240, 255, 255, 0.677);
+    font-size: 13px;
+ }
+
+
+ .c2c {
+    text-align: center;
+    margin: 0 auto;
+ }
+
+ .c2c a {
+        display: flex;
+        justify-content: center;
+        color: rgba(255, 68, 0, 0.942);
+        font-weight: 700;
+        font-size: medium;
+ }
+
+ .c2c p {
+    color: rgba(240, 255, 255, 0.677);
+    font-size: 13px;
+ }
+
+/* styling this section as a single block but experimenting by using some new parameters */
+.d {
+    background-color: rgba(245, 245, 245, 0.915);
+    width: 70%;
+    overflow: hidden;
+    margin: 10px;
+    display: flexbox;
+    flex: 1 1 100%;
+    margin-left: 140px; 
+    margin: 0 auto;
+    margin-top: 70px;
+    padding: 30px;  
+}
+
+.d h2 {
+text-align: center;
+font-weight: 800;
+font-size: 25px;
+margin-top: 10px;
+}
+
+.d h1 {
+    text-align: center;
+    font-weight: bolder;
+    font-size: 25px;
+    margin-top: 10px;
+}
+
+/* centering the button */
+.d button {
+    display: flex;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+/* styling the foooter */
+.footer {
+   width: 70%;
+   overflow: hidden;
+   margin: 10px;
+   display: flex;
+   flex: 1 1 100%;
+   justify-content: space-between;
+   margin-left: 140px; 
+   margin: 0 auto;
+   margin-top: 80px;
+   padding: 40px;
+   cursor: pointer;
+}
+
+.footer li {
+   list-style: none;
+   padding: 15px 15px;
+   text-decoration: none;
+}
+
+.footer li a:hover {
+   color: rgba(255, 68, 0, 0.942);
+}
+
+.footer1 {
+   color: rgba(255, 255, 255, 0.811);
+   font-weight: bolder;
+   font-size: 18px;
+}
+
+.f1 a {
+   color: rgba(255, 255, 255, 0.358);
+   font-size: 14px;
+}
+
+.footer2 {
+    color: rgba(255, 255, 255, 0.709);
+    font-weight: bolder;
+    font-size: 18px;
+}
+
+.f2 a {
+    color: rgba(255, 255, 255, 0.358);
+    font-size: 14px;  
+}
+
+.footer3 {
+    color: rgba(255, 255, 255, 0.709);
+    font-weight: bolder;
+    font-size: 18px;
+}
+
+.f3 a {
+    color: rgba(255, 255, 255, 0.358);
+    font-size: 14px;  
+}
+
+.footer4 {
+    color: rgba(255, 255, 255, 0.709);
+    font-weight: bolder;
+    font-size: 18px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.f4 a {
+color: white;
+}
+
+.f4 li  {
+   display: flex;
+   justify-content: center;
+}
+
+.f4 li a {
+   padding: 10px;
+   background-color: rgba(255, 68, 0, 0.942);
+   border-radius: 50px;
+   margin: 5px;
+
+}
+
+/* changing the highlight colour */
+*::selection {
+    background: rgba(255, 68, 0, 0.303); 
+}
+ 
+/* changing the hover colour of the footer to fit the theme */
+.footer li a:hover {
+    color: rgba(255, 68, 0, 0.942);
+}
