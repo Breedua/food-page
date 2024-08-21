@@ -32,20 +32,20 @@ body {
 
 /* taking the logo name to the extreme left */
 .header1 {
-    display: flex;
-    margin: auto;
+   display: flex;
+   margin: auto;
 }
  
 /* taking the list contents of the header to the right side */
 .header2 {
-    display: flex;
- margin: auto;
+   display: flex;
+   margin: auto;
 }
 
 /* spacing between each list item and removing the dots */
 .header li {
-    list-style: none;
-    padding: 10px 15px;
+   list-style: none;
+   padding: 10px 15px;
 }
 
 /* changing the anchor tag text colour */
